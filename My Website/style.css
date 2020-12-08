@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html  {
+  background-color: #fff;
+  color: #c1c1c1;
+  font-family: 'Rubik',  Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("images/Img1.jpg")
+  background-size: cover;
+}
+
+.container {
+  padding: 3rem 12rem;
+}
+
+.navbar {
+  display: flex;
+  color: #ff3c88;
+
+}
+
+.navbar img {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.logo {
+  flex: 2;
+}
+
+.menu {
+  flex: 1;
+  color: #fff;
+  font-size: 15px;
+}
+
+.menu>ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu>ul>li {
+  padding: 0rem 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu .btn {
+  background-color: #ff3c88;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.text {
+  flex: 1;
+  padding-top: 11rem;
+}
+
+.banner {
+  flex: 1;
+  padding-top: 5rem;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #000
+  font-weight: medium;
+}
+
+.btn-rounded {
+  padding: 0.7rem;
+  background-color: #ff3c88;
+  border-radius: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#link {
+  color: #ff3c88
+  text-decoration: underline;
+  margin-left: 1rem;
+  font-size: 15px;
+} 
